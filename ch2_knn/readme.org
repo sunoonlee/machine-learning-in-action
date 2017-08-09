@@ -1,0 +1,7 @@
+** kNN
+
+~ 每章的 readme 用来做索引和总结笔记
+
++ 热身练习 [[knn_warmup.ipynb]]
++ 改进约会网站的配对效果 [[knn_dating.ipynb]]
+

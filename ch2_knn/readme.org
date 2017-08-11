@@ -2,6 +2,15 @@
 
 ~ 每章的 readme 用来做索引和总结笔记
 
-+ 热身练习 [[knn_warmup.ipynb]]
-+ 改进约会网站的配对效果 [[knn_dating.ipynb]]
++ [[knn.py]]: 这里包含了核心函数 `classify0()`
++ [[knn_warmup.ipynb]] 热身练习
++ [[knn_dating.ipynb]] 改进约会网站的配对效果
++ [[knn_handwriting_digits.ipynb]] 利用 knn 识别手写数字
+
+notes
++ kNN 没有显式的训练过程.
++ kNN 的计算效率较低. 使用 kd-tree 可以获得一定程度的改进. 另外, 计算距离时可以保留为距离平方, 省去开根号的计算量.
++ 数据的归一化 (normalize): `norm_x = (x - min) / (max - min)`
++ 两个 numpy 细节: `argsort`, `np.tile`
+
 

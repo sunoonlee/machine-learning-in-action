@@ -2,7 +2,7 @@
 
 ~ 每章的 readme 用来做索引和总结笔记
 
-+ [[knn.py]]: 这里包含了核心函数 `classify0()`
++ [[knn.py]]: 这里包含了核心函数 =classify0()=
 + [[knn_warmup.ipynb]] 热身练习
 + [[knn_dating.ipynb]] 改进约会网站的配对效果
 + [[knn_handwriting_digits.ipynb]] 利用 knn 识别手写数字

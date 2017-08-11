@@ -10,7 +10,7 @@
 notes
 + kNN 没有显式的训练过程.
 + kNN 的计算效率较低. 使用 kd-tree 可以获得一定程度的改进. 另外, 计算距离时可以保留为距离平方, 省去开根号的计算量.
-+ 数据的归一化 (normalize): `norm_x = (x - min) / (max - min)`
-+ 两个 numpy 细节: `argsort`, `np.tile`
++ 数据的归一化 (normalize): ~norm_x = (x - min) / (max - min)~
++ 两个 numpy 细节: ~argsort~, =np.tile=
 
 
